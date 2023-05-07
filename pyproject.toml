@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "intro_cd"
+version = "0.0.1"
+description = "Introduction to Data Science"
+authors = ["Enzo Faliveni"]
+license = "None"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.0.1"
+matplotlib = "^3.7.1"
+Pillow = "^9.5.0"
+SQLAlchemy = "<2.0"
+pymysql = "^1.0.3"
+seaborn = "^0.12.2"
+black = "^23.3.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.22.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
