@@ -298,6 +298,14 @@ qa = ["flake8 (==3.8.3)", "mypy (==0.782)"]
 testing = ["Django (<3.1)", "attrs", "colorama", "docopt", "pytest (<7.0.0)"]
 
 [[package]]
+name = "joblib"
+version = "1.2.0"
+description = "Lightweight pipelining with Python functions"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "jupyter-client"
 version = "8.2.0"
 description = "Jupyter protocol implementation and client libraries"
@@ -389,6 +397,28 @@ description = "Patch asyncio to allow nested event loops"
 category = "dev"
 optional = false
 python-versions = ">=3.5"
+
+[[package]]
+name = "nltk"
+version = "3.8.1"
+description = "Natural Language Toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+click = "*"
+joblib = "*"
+regex = ">=2021.8.3"
+tqdm = "*"
+
+[package.extras]
+all = ["scikit-learn", "python-crfsuite", "requests", "numpy", "pyparsing", "twython", "scipy", "matplotlib"]
+corenlp = ["requests"]
+machine_learning = ["numpy", "python-crfsuite", "scikit-learn", "scipy"]
+plot = ["matplotlib"]
+tgrep = ["pyparsing"]
+twitter = ["twython"]
 
 [[package]]
 name = "numpy"
@@ -632,6 +662,14 @@ python-versions = ">=3.6"
 cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
+name = "regex"
+version = "2023.5.5"
+description = "Alternative regular expression module, to replace re."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "seaborn"
 version = "0.12.2"
 description = "Statistical data visualization"
@@ -739,6 +777,23 @@ optional = false
 python-versions = ">= 3.8"
 
 [[package]]
+name = "tqdm"
+version = "4.65.0"
+description = "Fast, Extensible Progress Meter"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[package.extras]
+dev = ["py-make (>=0.1.0)", "twine", "wheel"]
+notebook = ["ipywidgets (>=6)"]
+slack = ["slack-sdk"]
+telegram = ["requests"]
+
+[[package]]
 name = "traitlets"
 version = "5.9.0"
 description = "Traitlets Python configuration system"
@@ -789,7 +844,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "db6a4c4a5b51d6f5ae678ac03ebf5fbfa98ef4c7b5935e046b6d8e6afd21a416"
+content-hash = "cdf55483210acf1379804e6e8dffac1009f2a7cf9c5ced8796f2898e27d3de63"
 
 [metadata.files]
 appnope = []
@@ -812,6 +867,7 @@ importlib-resources = []
 ipykernel = []
 ipython = []
 jedi = []
+joblib = []
 jupyter-client = []
 jupyter-core = []
 kiwisolver = []
@@ -819,6 +875,7 @@ matplotlib = []
 matplotlib-inline = []
 mypy-extensions = []
 nest-asyncio = []
+nltk = []
 numpy = []
 packaging = []
 pandas = []
@@ -840,6 +897,7 @@ python-dateutil = []
 pytz = []
 pywin32 = []
 pyzmq = []
+regex = []
 seaborn = []
 setuptools-scm = []
 six = []
@@ -847,6 +905,7 @@ sqlalchemy = []
 stack-data = []
 tomli = []
 tornado = []
+tqdm = []
 traitlets = []
 typing-extensions = []
 tzdata = []
