@@ -2,7 +2,7 @@
 <h1 align="center"> Introducción a la Ciencia de Datos 2023 </h1>
 </p>
 <p align="center">
-   <img src="https://www.fing.edu.uy/sites/default/files/inline-images/Logo_Fing%2BUdelar_horizontal_RGB.png" width="150" alt="FING">
+   <img src="https://www.fing.edu.uy/sites/default/files/inline-images/Logo_Fing%2BUdelar_horizontal_RGB.png" width="300" alt="FING">
 </p>
 
 ## Quickstart
