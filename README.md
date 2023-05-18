@@ -2,12 +2,12 @@
 <h1 align="center"> Introducción a la Ciencia de Datos 2023 </h1>
 </p>
 <p align="center">
-   <img src="https://www.fing.edu.uy/sites/default/files/inline-images/Logo_Fing%2BUdelar_horizontal_RGB.png" width="500" alt="FING">
+   <img src="https://www.fing.edu.uy/sites/default/files/inline-images/Logo_Fing%2BUdelar_horizontal_RGB.png" width="475" alt="FING">
 </p>
 
 ## Quickstart
 
-Install [`poetry`](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions)
+Install [`poetry`](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions):
 
 1. `poetry install` will install all of your app's dependencies.
 2. ????
