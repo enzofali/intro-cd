@@ -1325,6 +1325,19 @@ MarkupSafe = ">=2.1.1"
 watchdog = ["watchdog (>=2.3)"]
 
 [[package]]
+name = "wordcloud"
+version = "1.9.2"
+description = "A little word cloud generator"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+matplotlib = "*"
+numpy = ">=1.6.1"
+pillow = "*"
+
+[[package]]
 name = "wrapt"
 version = "1.14.1"
 description = "Module for decorators, wrappers and monkey patching."
@@ -1347,7 +1360,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "flake8 (<5)", "pytest-co
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.12"
-content-hash = "e1679260726fd35151b3883dd031ff4367f15395fd4b32daf25417f172a96f0c"
+content-hash = "55731a0856911cdcbfed0a964cedcd1a1c09083210e3fb3b8198e7efa5e31d54"
 
 [metadata.files]
 absl-py = []
@@ -1452,5 +1465,6 @@ tzdata = []
 urllib3 = []
 wcwidth = []
 werkzeug = []
+wordcloud = []
 wrapt = []
 zipp = []
