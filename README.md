@@ -21,4 +21,4 @@ Este repositorio contiene las letras y notebooks de las tareas propuestas para l
 
 ### Tarea 1
 
-La primera tarea consiste en un análisis exploratorio y limpieza de datos de la base relacional con la obra completa de William Shakespeare (https://relational.fit.cvut.cz/dataset/Shakespeare). La tarea se encuentra contenida en la carpeta `Tarea_1` y el notebook con la resolucion del problema se llama `Tarea1_resolucion.ipynb`.
+La primera tarea consiste en un análisis exploratorio y limpieza de datos de la base relacional con la obra completa de William Shakespeare (https://relational.fit.cvut.cz/dataset/Shakespeare). La tarea se encuentra contenida en la carpeta `Tarea_1`, donde se encuentra el notebook con la resolucion del problema `Tarea1_resolucion.ipynb` y el informe correspondiente en formato `.pdf`.
